@@ -19,7 +19,7 @@
   </head>
   <body>
     <div id="pageTop"></div>
-    <nav class="navbar nav">
+    <nav id="topNav" class="navbar nav">
       <div class="container">
         <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
           <span>&#9776;</span>
@@ -46,7 +46,7 @@
       <div class="container">
         <div class="hero-wrapper">
           <h2 class="hero-header">
-               <p> Young in our spirits and <br> modern look</p>
+            <p> Young in our spirits and <br> modern look</p>
           </h2>
          <a class="btn btn-white" href="">Learn More</a>
         </div>
@@ -139,94 +139,96 @@
           <h2>Choose the right package for You</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="price-tables">
-          <div class="price-card basic-enterprice">
-            <h3>Basic</h3>
-            <div class="price" >$99.99</div>
-            <div class="billed">Per month</div>
-            <hr>
-            <ul class="ul-prices">
-              <li>
-                <span class="title">Community Support</span>
-                <span class="icon">&#10003;</span>
-              </li>
-              <li>
-                <span class="title">Flexible, simple license</span>
-                <span class="icon ">&#10003;</span>
-              </li>
-              <li>
-                <span class="title">100+ styled components</span>
-                <span class="icon">&#10761;</span>
-              </li>
-              <li>
-                <span class="title">100+ header variations</span>
-                <span class="icon">&#10761;</span>
-              </li>
-              <li>
-                <span class="title">Speedy build toogling</span>
-                <span class="icon">&#10761;</span>
-              </li>
-            </ul>
-          </div>
-
-            <div class="price-card standard">
-              <h3>Standard</h3>
-              <div class="price" >$199.99</div>
+        <div class="container">
+          <div class="price-tables">
+            <div class="price-card basic-enterprice">
+              <h3>Basic</h3>
+              <div class="price" >$99.99</div>
               <div class="billed">Per month</div>
               <hr>
               <ul class="ul-prices">
                 <li>
                   <span class="title">Community Support</span>
-                  <span class="icon green">&#10003;</span>
+                  <span class="icon">&#10003;</span>
                 </li>
                 <li>
                   <span class="title">Flexible, simple license</span>
-                  <span class="icon green">&#10003;</span>
+                  <span class="icon ">&#10003;</span>
                 </li>
                 <li>
                   <span class="title">100+ styled components</span>
-                  <span class="icon green">&#10003;</span>
+                  <span class="icon">&#10761;</span>
                 </li>
                 <li>
                   <span class="title">100+ header variations</span>
-                  <span class="icon red">&#10761;</span>
+                  <span class="icon">&#10761;</span>
                 </li>
                 <li>
                   <span class="title">Speedy build toogling</span>
-                  <span class="icon red">&#10761;</span>
+                  <span class="icon">&#10761;</span>
                 </li>
               </ul>
-              <a href="#" class="btn btn-primary get-started">Get Started</a>
             </div>
-
-              <div class="price-card basic-enterprice">
-                <h3>Enterprise</h3>
-                <div class="price" >$499.99</div>
+  
+              <div class="price-card standard">
+                <h3>Standard</h3>
+                <div class="price" >$199.99</div>
                 <div class="billed">Per month</div>
                 <hr>
                 <ul class="ul-prices">
                   <li>
                     <span class="title">Community Support</span>
-                    <span class="icon">&#10003;</span>
+                    <span class="icon green">&#10003;</span>
                   </li>
                   <li>
                     <span class="title">Flexible, simple license</span>
-                    <span class="icon">&#10003;</span>
+                    <span class="icon green">&#10003;</span>
                   </li>
                   <li>
                     <span class="title">100+ styled components</span>
-                    <span class="icon">&#10003;</span>
+                    <span class="icon green">&#10003;</span>
                   </li>
                   <li>
                     <span class="title">100+ header variations</span>
-                    <span class="icon">&#10003;</span>
+                    <span class="icon red">&#10761;</span>
                   </li>
                   <li>
                     <span class="title">Speedy build toogling</span>
-                    <span class="icon">&#10003;</span>
+                    <span class="icon red">&#10761;</span>
                   </li>
                 </ul>
+                <a href="#" class="btn btn-primary get-started">Get Started</a>
               </div>
+  
+                <div class="price-card basic-enterprice">
+                  <h3>Enterprise</h3>
+                  <div class="price" >$499.99</div>
+                  <div class="billed">Per month</div>
+                  <hr>
+                  <ul class="ul-prices">
+                    <li>
+                      <span class="title">Community Support</span>
+                      <span class="icon">&#10003;</span>
+                    </li>
+                    <li>
+                      <span class="title">Flexible, simple license</span>
+                      <span class="icon">&#10003;</span>
+                    </li>
+                    <li>
+                      <span class="title">100+ styled components</span>
+                      <span class="icon">&#10003;</span>
+                    </li>
+                    <li>
+                      <span class="title">100+ header variations</span>
+                      <span class="icon">&#10003;</span>
+                    </li>
+                    <li>
+                      <span class="title">Speedy build toogling</span>
+                      <span class="icon">&#10003;</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
         </div>
       </section>
 
@@ -314,7 +316,6 @@
             </div>
           </div>
         </div>
-      </footer>
       <section class="footer-bottom">
       <div class="footer-bottom-wrapper">
         <div class=footer-bottom-left>
@@ -341,11 +342,32 @@
         </div>
       </div>
     </section>
+    </footer>
+      
 
     <a id="scrollUp" href="#pageTop">
       <i class="fa-solid fa-arrow-up"></i>
     </a>
     
+    <script>
+      const nav = document.getElementById("topNav");
+      window.onscroll = function () {
+        if (window.pageYOffset > 50) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+      const navButton = document.querySelector('button[aria-expanded');
+
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
+
+      navButton.addEventListener('click', toggleNav);
+    </script>
+
   </body>
 </html>
 

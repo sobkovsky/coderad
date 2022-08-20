@@ -31,6 +31,7 @@
 html {scroll-behavior: smooth;}
 
 body {
+  display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -117,13 +118,14 @@ img {
 @media (min-width: 992px) {
   .footer-wrap,
   .footer-bottom-wrapper {max-width: 960px;
+  }     
 }
 
 @media (min-width: 768px) {
   .price-tables {
     max-width: 720px;
-  }
-
+  } 
 }
+ 
 
-}
+
